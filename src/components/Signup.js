@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Singup = (props) => {
   const [credentials, setCredentials] = useState({ email: "", password: "", name:"", cpassword:"" });
